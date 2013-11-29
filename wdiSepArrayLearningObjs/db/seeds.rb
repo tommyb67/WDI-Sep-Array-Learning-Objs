@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Objective.destroy_all
+
+# Objective.create(category: "test category", objective: "test objective", status: "test status", command: "test command", resource: "test resource");
