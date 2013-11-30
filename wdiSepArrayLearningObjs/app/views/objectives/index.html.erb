@@ -1,1 +1,21 @@
 <h1>WDI Learning Objectives</h1>
+
+
+<table id="objectives">
+  <tr>
+    <th>Category</th>
+    <th>Objective</th>
+    <th>Status</th>
+    <th>Command</th>
+    <th>Resource</th>
+  </tr>
+<% @objectives.each do |objective| %>
+  <tr>
+    <td><%= objective.category %></td>
+    <td><%= objective.objective %></td>
+    <td><%= objective.status %></td>
+    <td><%= objective.command %></td>
+    <td><%= objective.resource %></td>
+  <tr>
+    <% end %>
+</table>

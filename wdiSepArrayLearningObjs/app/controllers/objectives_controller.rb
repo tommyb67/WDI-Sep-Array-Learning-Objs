@@ -1,6 +1,7 @@
 class ObjectivesController < ApplicationController
 
-  def initialize
-    objective = Objective.all
+  def index
+    @objectives = Objective.all
   end
+
 end
