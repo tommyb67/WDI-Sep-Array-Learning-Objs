@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require "csv"
-# require "iconv"
+#require "iconv"
 # possible need to replace iconv, which we deprecated in 1.93 with the below?  this is for file imports with the roo gem
 # string.encode("UTF-8", :invalid => :replace, :undef => :replace, :replace => "?")
 
